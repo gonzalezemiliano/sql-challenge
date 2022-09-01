@@ -10,7 +10,7 @@ SET lock_timeout = 0;
 SET idle_in_transaction_session_timeout = 0;
 SET client_encoding = 'UTF8';
 SET standard_conforming_strings = on;
-SELECT pg_catalog.set_config('search_path', '', false);
+--SELECT pg_catalog.set_config('search_path', '', false);
 SET check_function_bodies = false;
 SET xmloption = content;
 SET client_min_messages = warning;
@@ -59,7 +59,7 @@ CREATE TABLE public.casts (
 );
 
 
-ALTER TABLE public.casts OWNER TO postgres;
+--ALTER TABLE public.casts OWNER TO postgres;
 
 --
 -- Name: genres; Type: TABLE; Schema: public; Owner: postgres
@@ -71,7 +71,7 @@ CREATE TABLE public.genres (
 );
 
 
-ALTER TABLE public.genres OWNER TO postgres;
+--ALTER TABLE public.genres OWNER TO postgres;
 
 --
 -- Name: jobs; Type: TABLE; Schema: public; Owner: postgres
@@ -83,7 +83,7 @@ CREATE TABLE public.jobs (
 );
 
 
-ALTER TABLE public.jobs OWNER TO postgres;
+--ALTER TABLE public.jobs OWNER TO postgres;
 
 --
 -- Name: TABLE jobs; Type: COMMENT; Schema: public; Owner: postgres
@@ -102,7 +102,7 @@ CREATE TABLE public.movie_genres (
 );
 
 
-ALTER TABLE public.movie_genres OWNER TO postgres;
+--ALTER TABLE public.movie_genres OWNER TO postgres;
 
 --
 -- Name: movie_in_saga; Type: TABLE; Schema: public; Owner: postgres
@@ -114,7 +114,7 @@ CREATE TABLE public.movie_in_saga (
 );
 
 
-ALTER TABLE public.movie_in_saga OWNER TO postgres;
+--ALTER TABLE public.movie_in_saga OWNER TO postgres;
 
 --
 -- Name: movie_languages; Type: TABLE; Schema: public; Owner: postgres
@@ -126,7 +126,7 @@ CREATE TABLE public.movie_languages (
 );
 
 
-ALTER TABLE public.movie_languages OWNER TO postgres;
+--ALTER TABLE public.movie_languages OWNER TO postgres;
 
 --
 -- Name: movie_references; Type: TABLE; Schema: public; Owner: postgres
@@ -139,7 +139,7 @@ CREATE TABLE public.movie_references (
 );
 
 
-ALTER TABLE public.movie_references OWNER TO postgres;
+--ALTER TABLE public.movie_references OWNER TO postgres;
 
 --
 -- Name: movies; Type: TABLE; Schema: public; Owner: postgres
@@ -157,7 +157,7 @@ CREATE TABLE public.movies (
 );
 
 
-ALTER TABLE public.movies OWNER TO postgres;
+--ALTER TABLE public.movies OWNER TO postgres;
 
 --
 -- Name: sagas; Type: TABLE; Schema: public; Owner: postgres
@@ -170,7 +170,7 @@ CREATE TABLE public.sagas (
 );
 
 
-ALTER TABLE public.sagas OWNER TO postgres;
+--ALTER TABLE public.sagas OWNER TO postgres;
 
 --
 -- Name: people; Type: TABLE; Schema: public; Owner: postgres
@@ -185,6 +185,6 @@ CREATE TABLE public.people (
 );
 
 
-ALTER TABLE public.people OWNER TO postgres;
+--ALTER TABLE public.people OWNER TO postgres;
 
 
