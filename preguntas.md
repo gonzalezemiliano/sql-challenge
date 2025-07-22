@@ -278,5 +278,3 @@
     `error logs`, `resource monitoring`, `connectivity tests`, `data sampling`, `retry/backoff`.
 
 ---
-
-Estas preguntas y respuestas te permitirán evaluar desde los conceptos básicos hasta escenarios reales de diseño, performance, testing y colaboración en SQL y data engineering. ¡Éxitos en tus entrevistas!
