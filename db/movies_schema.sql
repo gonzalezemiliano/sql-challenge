@@ -187,4 +187,11 @@ CREATE TABLE public.people (
 
 --ALTER TABLE public.people OWNER TO postgres;
 
-
+-- Crear tabla de auditoría
+CREATE TABLE IF NOT EXISTS movie_audit (
+    movie_id BIGINT,
+    name TEXT,
+    date DATE,
+    log_timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    action TEXT
+);

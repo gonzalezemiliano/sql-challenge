@@ -157,5 +157,5 @@ ALTER TABLE ONLY movie_references
 ALTER TABLE ONLY movie_references
     ADD CONSTRAINT movie_references_referenced_by_fkey FOREIGN KEY (referenced_by) REFERENCES movies(id) ON DELETE CASCADE;
 
-
-
+ALTER TABLE ONLY movie_audit
+    ADD CONSTRAINT fk_movie FOREIGN KEY (movie_id) REFERENCES movies(id) ON DELETE CASCADE;
