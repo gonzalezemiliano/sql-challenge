@@ -81,7 +81,7 @@ pip3 install ipykernel ipython-sql psycopg2-binary
 En el notebook, utilizar la siguiente cadena de conexión (ajustar según tu configuración):
 
 ```python
-%sql postgresql://usuario@localhos:5432/movies
+%sql postgresql://usuario@localhost:5432/movies
 ```
 
 ## 🎯 Cómo Usar Este Proyecto
